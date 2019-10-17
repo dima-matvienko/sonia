@@ -1,3 +1,2 @@
 #!/bin/bash
-
-grep ${name} ./testfile
+cat ./testfile |grep ${name}
