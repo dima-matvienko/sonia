@@ -1,2 +1,2 @@
 #!/bin/bash
-cat ./testfile |grep Sonia
+cat ./testfile |grep "${name}"
