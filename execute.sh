@@ -1,2 +1,2 @@
 #!/bin/bash
-cat ./testfile
+cat ./testfile |grep Sonia
