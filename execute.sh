@@ -1,2 +1,4 @@
 #!/bin/bash
-cat ./testfile |grep $name
+DIMA=`echo ${name}`
+echo $DIMA
+#cat ./testfile |grep $name
