@@ -1,3 +1,5 @@
 #!/bin/bash
 
-cat ./testfile |grep ${name} > /dev/null  2>&1
+RESULT=`cat ./testfile |grep ${name}`
+
+echo $rESULT
